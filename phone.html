@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>phone</title>
+    
+    <!-- link to nunito sans font from google font similar to circular : start -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- link to nunito sans font from google font similar to circular : end -->
+    <style>
+        body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.left-section{
+    background-color: black;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.spotify-logo{
+    height:40px;
+    cursor: pointer;
+}
+.middle-section{
+    background-color:rgb(16, 16, 16);
+    flex: 1;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.arrow-button{
+    font-family: 'Nunito Sans', Arial;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: rgba(9,9,9,255);
+    color: rgba(148,148,148,1);
+    margin-right: 10px;
+    cursor: pointer;
+}
+.arrow-button:hover{
+    color: white;;
+}
+.right-section{
+    background-color: rgb(16, 16, 16);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    padding-left: 10px;
+}
+.sign-up{
+    font-family: 'Nunito Sans', Arial;
+    font-size: 15px;
+    color: rgb(196, 190, 190);
+    font-weight: 700;
+    margin-right: 19px;
+    cursor: pointer;
+
+}
+.sign-up:hover{
+    color: white;
+    font-size: 16px;
+}
+.log-in{
+    font-size: 15px;
+    font-weight: 600;
+    width: 100px;
+    padding: 12px;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.log-in:hover{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px;
+}
+    </style>
+</head>
+<body>
+
+    <!-- variation: 01
+    logo: green 
+    arrow: gray
+    sign-up: gray
+    log-in:  white-->
+
+
+
+    <div class="header">
+        <div class="left-section">
+            <img class="spotify-logo" src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="">
+        </div>
+        <div class="middle-section">
+            <!-- arrow link: https://www.toptal.com/designers/htmlarrows/symbols/ -->
+            <button class="arrow-button">
+                &#10094;
+            </button>
+
+            <button class="arrow-button">
+                &#10095;
+            </button>
+        </div>
+
+        <div class="right-section">
+            <span class="sign-up">Sign up</span>
+            <button class="log-in">Log in </button>
+        </div>
+    </div>
+
+    <!-- variation: 02
+    logo: white
+    arrow: gray
+    sign-up: gray
+    log-in: white -->
+
+    <div class="header">
+        <div class="left-section">
+            <img class="spotify-logo" src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" alt="">
+        </div>
+        <div class="middle-section">
+            <!-- arrow link: https://www.toptal.com/designers/htmlarrows/symbols/ -->
+            <button class="arrow-button">
+                &#10094;
+            </button>
+
+            <button class="arrow-button">
+                &#10095;
+            </button>
+        </div>
+
+        <div class="right-section">
+            <span class="sign-up">Sign up</span>
+            <button class="log-in">Log in </button>
+        </div>
+    </div>
+
+    <!-- variation: 03
+    logo: green
+    arrow: gray
+    sign-up: green
+    log-in:  green -->
+
+
+    <div class="header">
+        <div class="left-section">
+            <img class="spotify-logo" src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="">
+        </div>
+        <div class="middle-section">
+            <!-- arrow link: https://www.toptal.com/designers/htmlarrows/symbols/ -->
+            <button class="arrow-button">
+                &#10094;
+            </button>
+
+            <button class="arrow-button">
+                &#10095;
+            </button>
+        </div>
+
+        <div class="right-section">
+            <span class="sign-up" style="color: rgb(26, 178, 107);">Sign up</span>
+            <button class="log-in" style="background-color: rgb(26, 178, 107);">Log in </button>
+        </div>
+    </div>
+
+    <!-- variation: 04
+    logo: white
+    arrow: green
+    sign-up: gray
+    log-in: green -->
+
+
+    <div class="header">
+        <div class="left-section">
+            <img class="spotify-logo" src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" alt="">
+        </div>
+        <div class="middle-section">
+            <!-- arrow link: https://www.toptal.com/designers/htmlarrows/symbols/ -->
+            <button class="arrow-button" style="color: rgb(26, 178, 107);">
+                &#10094;
+            </button>
+
+            <button class="arrow-button"  style="color: rgb(26, 178, 107);">
+                &#10095;
+            </button>
+        </div>
+
+        <div class="right-section">
+            <span class="sign-up">Sign up</span>
+            <button class="log-in" style="background-color: rgb(26, 178, 107);">Log in </button>
+        </div>
+    </div>
+
+     <!-- variation: 05
+    logo: green
+    arrow: green 
+    sign-up: green
+    log-in:  green-->
+
+
+
+    <div class="header">
+        <div class="left-section">
+            <img class="spotify-logo" src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="">
+        </div>
+        <div class="middle-section">
+            <!-- arrow link: https://www.toptal.com/designers/htmlarrows/symbols/ -->
+            <button class="arrow-button" style="color: rgb(26, 178, 107);">
+                &#10094;
+            </button>
+
+            <button class="arrow-button" style="color: rgb(26, 178, 107);">
+                &#10095;
+            </button>
+        </div>
+
+        <div class="right-section">
+            <span class="sign-up" style="color: rgb(26, 178, 107);">Sign up</span>
+            <button class="log-in" style="background-color: rgb(26, 178, 107);">Log in </button>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
